@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&display=swap");
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* body */
+body {
+  margin: 0;
+}
+
+.navbar {
+  background-color: #242424;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 45px;
+}
+
+.nav-links a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+/* Hero Section */
+.hero {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.test-drive-btn {
+  position: absolute;
+  top: 568px;
+  right: 50%;
+  width: 90px;
+  height: 32px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+/* Feature Section */
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-top: 50px;
+  background-color: #242424;
+}
+
+/* feature-1 */
+.feature1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin: 5rem;
+}
+.video-txt-1 {
+  font-size: 72px;
+  position: absolute;
+  top: 44.3rem;
+  left: 11rem;
+}
+.video-txt-2 {
+  margin-top: 1rem;
+  margin-right: 32rem;
+  font-size: 38px;
+}
+
+/* feature-2 */
+.feature2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+}
+.feature2 .content2 h2 {
+  font-size: 48px;
+  font-weight: 400;
+}
+.feature2 .content2 h1 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+.feature2 .content2 p {
+  font-size: 13.5px;
+  font-weight: 200;
+}
+.content2 {
+  margin-left: 5rem;
+  width: 24rem;
+}
+.feature2 button {
+  height: 57px;
+  font-size: 18px;
+  padding: 0 2.5rem;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+.f2-btn-2 {
+  background-color: #242424;
+  color: white;
+  border: none;
+}
+
+/* feature-3 */
+.feature3 {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("images/Features\ 2.3\ Img.png");
+  width: 100vw;
+  color: black;
+}
+
+.content3 h2 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.content3 h1 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.content3 p {
+  font-size: 13.5px;
+  font-weight: 200;
+}
+
+.feature3 button {
+  height: 57px;
+  font-size: 18px;
+  padding: 0 2.5rem;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+
+.f3-btn-1 {
+  background-color: #000000;
+  color: white;
+  border: none;
+}
+.f3-btn-2 {
+  background-color: white;
+  border: none;
+}
+
+.content3 {
+  top: 144rem;
+  left: 3rem;
+  position: absolute;
+  width: 24rem;
+}
+
+/* Specifications Section */
+.specifications {
+  background-color: black;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("images/Model-X-Specs-Hero-Desktop-LHD\ 1.png");
+}
+.spec-content {
+  position: absolute;
+  top: 182rem;
+  left: 45rem;
+}
+
+table {
+  width: 30rem;
+  height: 21rem;
+}
+table tr th,
+td {
+  text-align: left;
+}
+
+td {
+  margin-bottom: 1rem;
+}
+.cell {
+  margin-bottom: 3rem;
+}
+.spec-content h2 {
+  font-size: 22.83px;
+  font-weight: 400;
+}
+.spec-content table tr th {
+  font-size: 16.31px;
+  font-weight: 300;
+}
+.spec-content table tr td div {
+  font-size: 16px;
+  font-weight: 300;
+}
+.spec-content h2 {
+  margin-bottom: 2rem;
+}
+
+/* EV Numerical Specs Section */
+.ev-specs {
+  padding: 50px 20px;
+
+  text-align: center;
+}
+
+.ev-specs h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333333; /* Dark text */
+}
+
+.spec-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 7rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.spec-item {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.spec-item p {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.spec-item > :first-child {
+  font-size: 12px;
+  font-weight: 100;
+}
+.spec-item > :nth-child(2) {
+  font-size: 48px;
+}
+.spec-item > :nth-child(3) {
+  font-size: 36px;
+  font-weight: 100;
+}
