@@ -3,31 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon Links -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="images/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="images/favicon" />
+    <!-- Remix Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <title>Assignment Website</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div id="container">
-      <!--favicon-->
-      <link
-        rel="apple-touch-icon"
-        sizes="180x180"
-        href="images/favicon/apple-touch-icon.png"
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href="images/favicon/favicon-32x32.png"
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="16x16"
-        href="images/favicon/favicon-16x16.png"
-      />
-      <link rel="manifest" href="/site.webmanifest" />
-
       <!-- header -->
       <header>
         <!-- Navbar -->
@@ -55,11 +56,11 @@
       <!-- Hero Section with Image -->
       <section class="hero">
         <img src="images/Hero Image.png" alt="Hero Image" />
-        <a href=""><button class="test-drive-btn">Test Drive</button></a>
+        <button class="test-drive-btn">Test Drive</button>
       </section>
 
       <!-- Feature Section -->
-      <section class="features">
+      <div class="features">
         <!-- feature - 1 -->
         <div class="feature1">
           <p class="video-txt-1">Air X</p>
@@ -173,7 +174,138 @@
             </div>
           </div>
         </div>
-      </section>
+
+        <!-- EV Section 2.5 - Features section -->
+        <div class="new-feature">
+          <div class="grid-container">
+            <div class="grid-item" id="grid1">
+              <img src="images/Design Img.png" alt="" />
+              <p>Impeccable Design</p>
+            </div>
+            <div class="grid-item" id="grid2">
+              <img src="images/Performance Img.png" alt="" />
+              <p>Elevated Performance</p>
+            </div>
+            <div class="grid-item" id="grid3">
+              <img src="images/Interiors Img.png" alt="" />
+              <p>Great interiors</p>
+            </div>
+            <div class="grid-item" id="grid4">
+              <img src="images/Sustainable img.png" alt="" />
+            </div>
+            <div class="grid-item" id="grid5">
+              <img src="images/Air X img.png" alt="" />
+              <h6>Drive to a sustainable future</h6>
+              <br />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut
+              </p>
+            </div>
+            <div class="grid-item" id="grid6">
+              <img src="images/img1.png" alt="" />
+            </div>
+            <div class="grid-item" id="grid7">
+              <img src="images/img2.png" alt="" />
+            </div>
+            <div class="grid-item" id="grid8">
+              <img src="images/imgRightLarge.png" alt="" />
+            </div>
+            <div class="grid-item" id="grid9">
+              <img src="images/img3.png" alt="" />
+            </div>
+            <div class="grid-item" id="grid10">
+              <img src="images/img4.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Air X Ad section -->
+        <div class="Ad-section">
+          <img src="images/Air X img2.png" alt="" />
+
+          <div class="Ad-content">
+            <h2>Air X</h2>
+            <p>Accelerate into a New Era</p>
+
+            <button class="Ad-btn-1">Order Now</button>
+            <button class="Ad-btn-2">Learn More</button>
+          </div>
+        </div>
+
+        <!--News/Stories section-->
+        <div class="stories-section">
+          <div class="news-grid-container">
+            <div class="news-grid-item" id="story-grid1">
+              <div class="news-content">
+                <div id="news-txt">Our Stories</div>
+                <div id="arrows">
+                  <i class="ri-arrow-left-line"></i>
+                  <i class="ri-arrow-right-line"></i>
+                </div>
+              </div>
+            </div>
+            <div class="news-grid-item" id="story-grid2">
+              <img src="images/Story 1 Img.png" alt="" />
+              <h1>Lorem Ipsum</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="news-grid-item" id="story-grid3">
+              <img src="images/Story 2 Img.png" alt="" />
+              <h1>Lorem Ipsum</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="news-grid-item" id="story-grid4">
+              <img src="images/Story 3 Img.png" alt="" />
+              <h1>Lorem Ipsum</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <div class="newsletter">
+            <h2>Subscribe to our newsletter</h2>
+            <div class="input-container">
+              <input type="email" placeholder="enter your email" />
+              <span class="arrow">→</span>
+            </div>
+          </div>
+          <div class="footer-links">
+            <div class="column1">
+              <a href="#">Air X</a>
+              <a href="#">Lexo Z</a>
+              <a href="#">Gravity 9</a>
+            </div>
+            <div class="column2">
+              <a href="#">Fleet</a>
+              <a href="#">Company</a>
+              <a href="#">Stories</a>
+            </div>
+            <div class="column3">
+              <a href="#">Purchasing</a>
+              <a href="#">Charging</a>
+              <a href="#">Insurance</a>
+              <a href="#">Service</a>
+            </div>
+            <div class="column4">
+              <a href="#">Spaces</a>
+              <a href="#">Investors</a>
+              <a href="#">Career</a>
+              <a href="#">Contact Us</a>
+            </div>
+          </div>
+        </footer>
+      </div>
     </div>
   </body>
 </html>

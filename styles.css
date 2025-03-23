@@ -62,6 +62,14 @@ body {
   border: 1px solid white;
   color: white;
   cursor: pointer;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+}
+
+.test-drive-btn:hover {
+  background-color: #ffc107;
+  color: #000;
+  border-color: #ffc107;
 }
 
 /* Feature Section */
@@ -275,4 +283,274 @@ td {
 .spec-item > :nth-child(3) {
   font-size: 36px;
   font-weight: 100;
+}
+
+/* EV Section 2.5 - Features */
+.new-feature {
+  width: 100vw;
+}
+.grid-container {
+  grid-template-columns: 31rem 20rem 25rem;
+  grid-template-rows: 25rem 30rem;
+  color: white;
+  display: grid;
+  padding: 20px;
+  grid-template-areas:
+    "grid1 grid2 grid3"
+    "grid4 grid5 grid5"
+    "grid4 grid5 grid5"
+    "grid6 grid7 grid8"
+    "grid9 grid10 grid8 ";
+}
+
+.grid-item {
+  text-align: center;
+  padding: 20px;
+}
+
+#grid1 {
+  grid-area: grid1;
+}
+#grid2 {
+  grid-area: grid2;
+}
+
+#grid3 {
+  grid-area: grid3;
+}
+
+#grid4 {
+  grid-area: grid4;
+}
+
+#grid5 {
+  grid-area: grid5;
+}
+
+#grid6 {
+  grid-area: grid6;
+}
+
+#grid7 {
+  padding-left: 0px;
+  grid-area: grid7;
+}
+
+#grid8 {
+  grid-area: grid8;
+  overflow: hidden;
+}
+
+#grid9 {
+  grid-area: grid9;
+}
+
+#grid10 {
+  padding-left: 0px;
+  grid-area: grid10;
+}
+
+#grid1,
+#grid2,
+#grid3 {
+  text-align: center;
+}
+#grid1 p,
+#grid2 p,
+#grid3 p {
+  font-size: 24px;
+}
+
+#grid5 h6 {
+  margin-top: 2rem;
+  font-size: 27px;
+  font-weight: 400;
+}
+
+#grid5 p {
+  font-size: 18px;
+}
+
+/* Air X Ad section */
+.Ad-content {
+  color: white;
+  left: 3rem;
+  position: absolute;
+  top: 350rem;
+}
+
+.Ad-content button {
+  height: 57px;
+  font-size: 18px;
+  padding: 0 2.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.Ad-btn-1 {
+  color: black;
+  background-color: white;
+  border: none;
+}
+.Ad-btn-2 {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.Ad-content h2 {
+  font-size: 48px;
+}
+.Ad-content {
+  font-size: 27px;
+}
+
+/* News/Stories section */
+.stories-section {
+  width: 100vw;
+  margin-top: 6rem;
+}
+.news-grid-container {
+  display: grid;
+  grid-template-areas:
+    "grid-1 grid-1 grid-1"
+    "grid-2 grid-3 grid-4"
+    "grid-2 grid-3 grid-4";
+}
+
+.news-grid-item {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  padding: 20px;
+}
+
+#story-grid1 {
+  grid-area: grid-1;
+}
+
+#story-grid2 {
+  grid-area: grid-2;
+}
+
+#story-grid3 {
+  grid-area: grid-3;
+}
+#story-grid4 {
+  grid-area: grid-4;
+}
+
+.news-content {
+  display: flex;
+  justify-content: space-between;
+}
+#news-txt {
+  font-size: 36px;
+}
+
+#arrows {
+  font-size: 3rem;
+}
+
+.news-grid-item h1 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.news-grid-item p {
+  font-size: 13.5px;
+  font-weight: 300;
+}
+
+.news-grid-item h1,
+p {
+  text-align: start;
+  margin-left: 2rem;
+}
+
+/* footer section */
+
+.footer {
+  width: 100vw;
+  color: white;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.newsletter {
+  margin-top: 6rem;
+  text-align: left;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.newsletter h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+  width: 26rem;
+}
+
+.input-container input {
+  background: none;
+  border: none;
+  outline: none;
+  color: #808080;
+  padding: 2rem 0;
+  flex: 1;
+  font-size: 15px;
+}
+
+.input-container input::placeholder {
+  color: #ccc;
+  text-transform: lowercase;
+}
+
+.input-container .arrow {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.column1,
+.column2 {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.column3,
+.column4 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.column1 a,
+.column2 a,
+.column3 a,
+.column4 a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.column a:hover {
+  text-decoration: underline;
 }
