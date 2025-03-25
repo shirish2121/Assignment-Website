@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <!-- Favicon Links -->
     <link
       rel="icon"
@@ -29,31 +28,36 @@
   </head>
   <body>
     <div id="container">
-      <!-- header -->
+      <!-- Header -->
       <header>
         <!-- Navbar -->
         <nav class="navbar">
           <!-- Left Side: Links -->
-          <div class="nav-links">
-            <a href="#">Alt X</a>
+          <div class="nav-links left-links">
+            <a href="#">Air X</a>
             <a href="#">Lexo Z</a>
             <a href="#">Gravity 9</a>
           </div>
 
           <!-- Center: Brand Logo -->
           <div class="brand">
-            <a href="#"><img src="images/Primary Logo.png" alt="" /></a>
+            <div class="brand">
+              <a href="#"><img src="images/Primary Logo.png" alt="" /></a>
+            </div>
           </div>
 
           <!-- Right Side: Links -->
-          <div class="nav-links">
+          <div class="nav-links right-links">
             <a href="#">Shop</a>
             <a href="#">Account</a>
+            <div class="hamburger">
+              <i class="ri-menu-line"></i>
+            </div>
           </div>
         </nav>
       </header>
 
-      <!-- Hero Section with Image -->
+      <!-- Hero Section -->
       <section class="hero">
         <img src="images/Hero Image.png" alt="Hero Image" />
         <button class="test-drive-btn">Test Drive</button>
@@ -150,7 +154,6 @@
 
         <!-- EV Numerical Specs Section -->
         <div class="ev-specs">
-          <!-- <h2>EV Numerical Specs</h2> -->
           <div class="spec-grid">
             <div class="spec-item">
               <p>Max Power</p>
@@ -169,7 +172,7 @@
             </div>
             <div class="spec-item">
               <p>0-60 mph</p>
-              <p>&lt;2</p>
+              <p><2</p>
               <p>sec</p>
             </div>
           </div>
@@ -179,24 +182,26 @@
         <div class="new-feature">
           <div class="grid-container">
             <div class="grid-item" id="grid1">
-              <img src="images/Design Img.png" alt="" />
+              <img src="images/Design Img.png" alt="Impeccable Design" />
               <p>Impeccable Design</p>
             </div>
             <div class="grid-item" id="grid2">
-              <img src="images/Performance Img.png" alt="" />
+              <img
+                src="images/Performance Img.png"
+                alt="Elevated Performance"
+              />
               <p>Elevated Performance</p>
             </div>
             <div class="grid-item" id="grid3">
-              <img src="images/Interiors Img.png" alt="" />
-              <p>Great interiors</p>
+              <img src="images/Interiors Img.png" alt="Great Interiors" />
+              <p>Great Interiors</p>
             </div>
             <div class="grid-item" id="grid4">
-              <img src="images/Sustainable img.png" alt="" />
+              <img src="images/Sustainable img.png" alt="Sustainable Future" />
             </div>
             <div class="grid-item" id="grid5">
-              <img src="images/Air X img.png" alt="" />
+              <img src="images/Air X img.png" alt="Air X" />
               <h6>Drive to a sustainable future</h6>
-              <br />
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut
@@ -223,55 +228,65 @@
         <!-- Air X Ad section -->
         <div class="Ad-section">
           <img src="images/Air X img2.png" alt="" />
-
           <div class="Ad-content">
             <h2>Air X</h2>
             <p>Accelerate into a New Era</p>
-
             <button class="Ad-btn-1">Order Now</button>
             <button class="Ad-btn-2">Learn More</button>
           </div>
         </div>
 
-        <!--News/Stories section-->
+        <!-- News/Stories section -->
         <div class="stories-section">
           <div class="news-grid-container">
             <div class="news-grid-item" id="story-grid1">
               <div class="news-content">
                 <div id="news-txt">Our Stories</div>
                 <div id="arrows">
-                  <i class="ri-arrow-left-line"></i>
-                  <i class="ri-arrow-right-line"></i>
+                  <i class="ri-arrow-left-line" id="left-arrow"></i>
+                  <i class="ri-arrow-right-line" id="right-arrow"></i>
                 </div>
               </div>
             </div>
-            <div class="news-grid-item" id="story-grid2">
-              <img src="images/Story 1 Img.png" alt="" />
-              <h1>Lorem Ipsum</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div>
-            <div class="news-grid-item" id="story-grid3">
-              <img src="images/Story 2 Img.png" alt="" />
-              <h1>Lorem Ipsum</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div>
-            <div class="news-grid-item" id="story-grid4">
-              <img src="images/Story 3 Img.png" alt="" />
-              <h1>Lorem Ipsum</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
+            <div class="news-carousel">
+              <div class="news-grid-item" id="story-grid2">
+                <img src="images/Story 1 Img.png" alt="Story 1" />
+                <h1>Lorem Ipsum</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <div class="news-grid-item" id="story-grid3">
+                <img src="images/Story 2 Img.png" alt="Story 2" />
+                <h1>Lorem Ipsum</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <div class="news-grid-item" id="story-grid4">
+                <img src="images/Story 3 Img.png" alt="Story 3" />
+                <h1>Lorem Ipsum</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+
+              <div class="news-grid-item" id="story-grid6">
+                <img src="images/Story 3 Img.png" alt="Story 5" />
+                <h1>Lorem Ipsum</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
             </div>
           </div>
         </div>
 
+        <!-- Footer -->
         <footer class="footer">
           <div class="newsletter">
             <h2>Subscribe to our newsletter</h2>
